@@ -5,6 +5,7 @@
   "main": "server.mjs",
   "scripts": {
     "server": "nodemon server.mjs",
+    "start": "node server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yerulan Sovetbergen",
@@ -15,5 +16,8 @@
     "express": "^4.18.2",
     "mongoose": "^8.0.3",
     "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": "21.4.0"
   }
 }
